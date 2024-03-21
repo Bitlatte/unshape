@@ -1,5 +1,3 @@
-import Navbar from "@/components/navbar";
-
 import "remixicon/fonts/remixicon.css"
 import "./globals.css";
 
@@ -10,12 +8,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-theme="wireframe">
+    <html lang="en" data-theme="cyberpunk">
       <body>
-        <div className="flex flex-col h-svh">
-          <Navbar />
-          {children}
-        </div>
+        {children}
       </body>
     </html>
   );

@@ -2,7 +2,7 @@
 
 export default function Navbar() {
     return (
-        <div className={"navbar bg-base-100"}>
+        <div className={"navbar"}>
             <div className={"flex-1"}>
                 <a href="/" className="btn btn-ghost text-xl">Unahsp</a>
             </div>
@@ -18,6 +18,9 @@ export default function Navbar() {
                         <a href="/how">hwo</a>
                     </li>
                 </ul>
+            </div>
+            <div className={"flex-1 justify-end"}>
+                <a href={"/break-the-chains"} className={"btn btn-primary"}>Doownload</a>
             </div>
         </div>
     );
